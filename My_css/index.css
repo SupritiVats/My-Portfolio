@@ -1,6 +1,6 @@
 *
 {
-    background-color: rgb(20, 20, 20);
+    background-color: black;
 }
 
 .collapse
@@ -81,4 +81,10 @@ h1, h3
     display: flex;
     justify-content:space-evenly;
 
+}
+
+.projects
+{
+    display: flex;
+    justify-content:space-evenly;
 }
