@@ -1,200 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SUPRITI VATS</title>
-    <link rel="stylesheet" href="My_css/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
 
-    <script src="myjs/jquery-1.8.2.min.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SUPRITI VATS</title>
+  <link rel="stylesheet" href="My_css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
 
-    <script>
+  <script src="myjs/jquery-1.8.2.min.js"></script>
+
+  <script>
     $(document).ready(function () {
-      
+
       $('.carousel').carousel('cycle')({
-        interval:2
+        interval: 2
       })
 
     })
   </script>
-  </head>
+</head>
 
 
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-dark"
-    style="background-color: black">
-      <div class="container-fluid">
-        <div class="name">
-          <h1 style="color: rgb(41, 156, 233); font-weight: bolder">
-            SUPRITI VATS
-          </h1>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style="background-color: rgb(41, 156, 233)"
-        >
-            <span
-            class="navbar-toggler-icon"
-            style="background-color: rgb(41, 156, 233)"
-          ></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <div class="items">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  style="color: rgb(41, 156, 233)"
-                  ><i class="fa-sharp fa-solid fa-house-user"></i> &nbsp;
-                  Home</a
-                >
-              </li>
-            </div>
-            <div class="items">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  style="color: rgb(41, 156, 233)"
-                  ><i class="fa-sharp fa-solid fa-address-card"></i>&nbsp;
-                  About</a
-                >
-              </li>
-            </div>
-            <div class="items">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#serve"
-                  style="color: rgb(41, 156, 233)"
-                >
-                  <i class="fa-solid fa-briefcase"></i> &nbsp; Services</a
-                >
-              </li>
-            </div>
-            <div class="items">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#project"
-                  style="color: rgb(41, 156, 233)"
-                  ><i class="fa-solid fa-pen-nib"></i> &nbsp; Projects</a
-                >
-              </li>
-            </div>
-            <div class="items">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#contact"
-                  style="color: rgb(41, 156, 233)"
-                >
-                  <i class="fa-solid fa-phone-volume"></i> &nbsp;Contact</a
-                >
-              </li>
-            </div>
-          </ul>
-        </div>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-dark" style="background-color: black">
+    <div class="container-fluid">
+      <div class="name">
+        <h1 style="color: rgb(41, 156, 233); font-weight: bolder">
+          SUPRITI VATS
+        </h1>
       </div>
-    </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+        style="background-color: rgb(41, 156, 233)">
+        <span class="navbar-toggler-icon" style="background-color: rgb(41, 156, 233)"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <div class="items">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color: rgb(41, 156, 233)"><i
+                  class="fa-sharp fa-solid fa-house-user"></i> &nbsp;
+                Home</a>
+            </li>
+          </div>
+          <div class="items">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color: rgb(41, 156, 233)"><i
+                  class="fa-sharp fa-solid fa-address-card"></i>&nbsp;
+                About</a>
+            </li>
+          </div>
+          <div class="items">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#serve" style="color: rgb(41, 156, 233)">
+                <i class="fa-solid fa-briefcase"></i> &nbsp; Services</a>
+            </li>
+          </div>
+          <div class="items">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#project" style="color: rgb(41, 156, 233)"><i
+                  class="fa-solid fa-pen-nib"></i> &nbsp; Projects</a>
+            </li>
+          </div>
+          <div class="items">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact" style="color: rgb(41, 156, 233)">
+                <i class="fa-solid fa-phone-volume"></i> &nbsp;Contact</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- ==================================== -->
+  <!-- ==================================== -->
 
-    <!-- 
+  <!-- 
       <div>
         <img src="my_media/blue_pic-removebg-preview.png" alt="" id="pic">
       </div> -->
 
-    <div style="border: 2px solid black; background-color: black">
-      <div class="back-strap">
-        <br />
-        <br />
-        <img src="my_media/azure blue3.jpg" alt="" height="80px" /> <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <img src="my_media/azure blue3.jpg" alt="" height="80px" />
-      </div>
-      <!-- style="margin-top: -396px" -->
-      <div class="back">
-        <div
-          class="container-canvas"
-          style="
+  <div style="border: 2px solid black; background-color: black">
+    <div class="back-strap">
+      <br />
+      <br />
+      <img src="my_media/azure blue3.jpg" alt="" height="80px" /> <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <img src="my_media/azure blue3.jpg" alt="" height="80px" />
+    </div>
+    <!-- style="margin-top: -396px" -->
+    <div class="back">
+      <div class="container-canvas" style="
             background-color: white;
             margin-top: -400px;
             height: 390px;
             width: 620px;
             margin-left: 300px;
-          "
-        >
-          <div class="canvas">
-            <div
-              class="canvas-pic"
-              style="overflow: hidden; background-color: white"
-            >
-              <div class="card mb-3" style="max-width: 650px; margin-top: 50px">
-                <div class="row g-0 card-style">
-                  <div class="col-md-4">
-                    <img
-                      src="my_media/blue pic.jpeg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-md-8" style="background-color: white">
-                    <div class="card-body" style="background-color: white">
-                      <h2 class="card-title" style="background-color: white">
-                        Hi There,
-                      </h2>
-                      <p class="card-text" style="background-color: white">
-                        Meet Supriti Vats, a versatile Full Stack Developer with
-                        expertise in MERN stack and Java. With a passion for
-                        creating innovative and user-friendly web applications,
-                        Supriti has a proven track record of delivering
-                        high-quality projects. She has hands-on experience in
-                        HTML, CSS, JavaScript, jQuery, AngularJS, and NodeJS,
-                        making her a well-rounded developer. From developing
-                        complex systems to creating visually appealing user
-                        interfaces, Supriti has a keen eye for detail and a
-                        drive for excellence. Take a look at her portfolio to
-                        see her work and discover why she's the right choice for
-                        your next project.
-                      </p>
-                      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
+          ">
+        <div class="canvas">
+          <div class="canvas-pic" style="overflow: hidden; background-color: white">
+            <div class="card mb-3" style="max-width: 650px; margin-top: 50px">
+              <div class="row g-0 card-style">
+                <div class="col-md-4">
+                  <img src="my_media/blue pic.jpeg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8" style="background-color: white">
+                  <div class="card-body" style="background-color: white">
+                    <h2 class="card-title" style="background-color: white">
+                      Hi There,
+                    </h2>
+                    <p class="card-text" style="background-color: white">
+                      Meet Supriti Vats, a versatile Full Stack Developer with
+                      expertise in MERN stack and Java. With a passion for
+                      creating innovative and user-friendly web applications,
+                      Supriti has a proven track record of delivering
+                      high-quality projects. She has hands-on experience in
+                      HTML, CSS, JavaScript, jQuery, AngularJS, and NodeJS,
+                      making her a well-rounded developer. From developing
+                      complex systems to creating visually appealing user
+                      interfaces, Supriti has a keen eye for detail and a
+                      drive for excellence. Take a look at her portfolio to
+                      see her work and discover why she's the right choice for
+                      your next project.
+                    </p>
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
                 </div>
               </div>
@@ -203,167 +144,293 @@
         </div>
       </div>
     </div>
+  </div>
 
 
-<!-- ===========================================SERVICES============================================================================== -->
-<div class="serviceheading" id="serve">
-  
-  <h1 style="margin: 30px;">Services</h1>
- 
-</div>
+  <!-- ===========================================SERVICES============================================================================== -->
+  <div class="serviceheading" id="serve">
 
-<div class="services" >
-      
-      <div class="card"  style="width: 20rem;">
-        <img src="my_media/web designer.png" class="card-img-top" alt="..." height="270px">
-        <div class="card-body" style="color: white;">
-          <p class="card-text" >
-            <center>
-              <h3>Web Designer</h3>      
+    <h1 style="margin: 30px;">Services</h1>
+
+  </div>
+
+  <div class="services">
+
+    <div class="card" style="width: 20rem;">
+      <img src="my_media/web designer.png" class="card-img-top" alt="..." height="270px">
+      <div class="card-body" style="color: white;">
+        <p class="card-text">
+          <center>
+            <h3>Web Designer</h3>
             Degsining attractive app and websites for organisations.
-             </center> 
-          </p>
-        </div>
+          </center>
+        </p>
       </div>
+    </div>
 
-      <div class="card" style="width: 20rem">
-        <img src="my_media/web developer.png" class="card-img-top" alt="..."height="270px">
-        <div class="card-body" style="color: white;">
-          <p class="card-text" >
-            <center>
-              <h3>Web Developer</h3>      
+    <div class="card" style="width: 20rem">
+      <img src="my_media/web developer.png" class="card-img-top" alt="..." height="270px">
+      <div class="card-body" style="color: white;">
+        <p class="card-text">
+          <center>
+            <h3>Web Developer</h3>
             Developing responsive & dynamic websites.
-             </center> 
-          </p>
-        </div>
+          </center>
+        </p>
       </div>
+    </div>
 
 
-      <div class="card" style="width: 20rem">
-        <img src="my_media/graphic designer.png" class="card-img-top" alt="..." height="270px">
-        <div class="card-body" style="color: white;">
-          <p class="card-text" >
-            <center>
-              <h3>Graphic Designer</h3>      
+    <div class="card" style="width: 20rem">
+      <img src="my_media/graphic designer.png" class="card-img-top" alt="..." height="270px">
+      <div class="card-body" style="color: white;">
+        <p class="card-text">
+          <center>
+            <h3>Graphic Designer</h3>
             Degsin attractive poster and flyer for organisations.
-             </center> 
-          </p>
-        </div>
+          </center>
+        </p>
       </div>
-      
     </div>
-    <div style="background-color: black; height: 60px;">
 
-    </div>
-    
-  <div class="services"> 
+  </div>
+  <div style="background-color: black; height: 60px;">
+
+  </div>
+
+  <div class="services">
     <div class="card" style="width: 20rem">
       <img src="my_media/java devloper.png" class="card-img-top" alt="..." height="270px">
       <div class="card-body" style="color: white;">
-        <p class="card-text" >
+        <p class="card-text">
           <center>
-            <h3>Java Developer</h3>      
-          Developing Java desktop applications with backend work.
-           </center> 
+            <h3>Java Developer</h3>
+            Developing Java desktop applications with backend work.
+          </center>
         </p>
       </div>
     </div>
     <div class="card" style="width: 20rem">
       <img src="my_media/content writer.png" class="card-img-top" alt="..." height="270px">
       <div class="card-body" style="color: white;">
-        <p class="card-text" >
+        <p class="card-text">
           <center>
-            <h3>Content Writer</h3>      
-          Writing content for organisations and worked for articles.
-          </center> 
+            <h3>Content Writer</h3>
+            Writing content for organisations and worked for articles.
+          </center>
         </p>
       </div>
     </div>
-    
+
     <div class="card" style="width: 20rem">
       <img src="my_media/tutoring.png" class="card-img-top" alt="..." height="270px">
       <div class="card-body" style="color: white;">
-        <p class="card-text" >
+        <p class="card-text">
           <center>
-            <h3>Tutoring</h3>      
+            <h3>Tutoring</h3>
             Passion to educate others with existing skills.
-           </center> 
+          </center>
         </p>
       </div>
     </div>
-   </div>
-   
-   <div class="serviceheading" id="project">
-  
-    <h1 style="margin: 33px;">My Projects </h1>
-   
   </div>
-   
-    <div  class ="projects">
-      <div id="carouselExampleCaptions" class="carousel slide"  style="width: 960px;">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner" style="width: 960px;" >
-          <div class="carousel-item active" style="width: 960px;" >
-            <img src="my_media/medicine.png" class="d-block w-100" alt="..." height="500px" >
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Medicine Donation</h5>
-              <p>Full Stack Web Development project depiciting the reduction in the wastage of medicine!</p>
-            </div>
-          </div>
-          <div class="carousel-item" style="width: 960px;">
-            <img src="my_media/newspaper.png" class="d-block w-100" alt="..." height="550px" >
-            <div class="carousel-caption d-none d-md-block">
-              <h5>newspaper Agency</h5>
-              <p>Desktop Application(Java) for maintaining the hawkers and customers details with backend!</p>
-            </div>
-          </div>
-          <div class="carousel-item" style="width: 960px;">
-            <img src="my_media/placement.png" class="d-block w-100" alt="..." height="550px" >
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Placement Portal</h5>
-              <p>Full Stack Projects for university placement portal maintenance!</p>
-            </div>
-          </div>
-          <div class="carousel-item" style="width: 960px;">
-            <img src="my_media/lms.png" class="d-block w-100" alt="..." height="550px" >
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Learning Management System</h5>
-              <p>Group project of frontend development for learning and evoluting!</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <!-- ============================================================================================ -->
+  <div class="serviceheading" id="project">
+
+    <h1 style="margin: 33px;">My Projects </h1>
+
+  </div>
+
+  <div class="projects">
+    <div id="carouselExampleCaptions" class="carousel slide" style="width: 960px;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
       </div>
+      <div class="carousel-inner" style="width: 960px;">
+        <div class="carousel-item active" style="width: 960px;">
+          <img src="my_media/medicine.png" class="d-block w-100" alt="..." height="500px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Medicine Donation</h5>
+            <p>Full Stack Web Development project depiciting the reduction in the wastage of medicine!</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="width: 960px;">
+          <img src="my_media/newspaper.png" class="d-block w-100" alt="..." height="550px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>newspaper Agency</h5>
+            <p>Desktop Application(Java) for maintaining the hawkers and customers details with backend!</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="width: 960px;">
+          <img src="my_media/placement.png" class="d-block w-100" alt="..." height="550px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Placement Portal</h5>
+            <p>Full Stack Projects for university placement portal maintenance!</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="width: 960px;">
+          <img src="my_media/lms.png" class="d-block w-100" alt="..." height="550px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Learning Management System</h5>
+            <p>Group project of frontend development for learning and evoluting!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
 
-    <div class="serviceheading" id="contact">
-  
-      <h1 style="margin: 33px;">Get In Touch</h1>
-     
-    </div>
-     
+  <div class="serviceheading" id="contact">
 
-    <div>
+    <h1 style="margin: 33px;">Get In Touch</h1>
+    <!-- <h3 style="color: rgb(221, 216, 216);">Any question or remarks? Just write us a message!</h3>  -->
 
-      
-    </div>
+  </div>
+  <!-- ===================================================================================================== -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <div class="serviceheading" id="contact">
+    <!-- <h1 style="margin: 33px;">Get In Touch</h1> <br> <br> <br> -->
+    <h3 style="color: rgb(221, 216, 216); margin-top: -15px;">Any question or remarks? Just write us a message!</h3>
+
+  </div>
+
+  <div style="background-color: black; height: 60px;"></div>
+
+
+  <div style="background-color: black;">
+
+    <div class="contactdiv" style="border-radius: 10px; width: 1150px;">
+
+      <div class="row" id="contacts" style="margin-left: 420px;   width: 680px; padding: 20px;">
+
+        <div class="col-md-6" id="contacts">
+          <label for="exampleFormControlInput1" class="form-label" id="contacts">First Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+        </div>
+        <div class="col-md-6" id="contacts">
+          <label for="exampleFormControlInput1" class="form-label" id="contacts">Last Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+        </div>
+        <div class="col-md-6" id="contacts">
+          <label for="exampleFormControlInput1" class="form-label" id="contacts">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+        </div>
+        <div class="col-md-6" id="contacts">
+          <label for="exampleFormControlInput1" class="form-label" id="contacts">Contact</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Contact">
+        </div>
+         
+        <div class="row" id="contacts">
+          <label for="exampleFormControlInput1" class="form-label" id="contacts">Contact</label>  
+          
+          <div class="form-check col-md-4" id="contacts">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"  >
+            <label class="form-check-label" for="flexRadioDefault1" id="contacts">
+              Web Development
+            </label>
+          </div>
+          <div class="form-check col-md-4" id="contacts">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+            <label class="form-check-label" for="flexRadioDefault2" id="contacts">
+              Java Development
+            </label>
+          </div>
+           
+          <div class="form-check col-md-4" id="contacts">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2" id="contacts">
+              Others
+            </label>
+          </div>
+        
+        </div>
+
+        <div class="col-md-12" id="contacts">
+          <label for="exampleFormControlTextarea1" class="form-label" id="contacts">Mesaage</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        
+        <div class="col-md-8" id="contacts">
+          <button type="button" class="btn col-md-6 " style="background-color: rgb(41, 156, 233); ">Send Your Message!</button>
+
+        </div>
+      </div>
+
+
+
+
+       <div class="cardofcontact" >
+
+        <div class="card"  style="width: 25rem; background-color: rgb(255, 255, 255); border: 0px;">
+          <img src="my_media/cardemail3.png" class="card-img-top" alt="..." style="background-color: white; padding: 45px; ">
+          <br>
+          <div class="card-body" style=" background-color: white; font-size: large; margin-left: 33px;">
+            <!-- <a href="#" class="card-link" style=" background-color: white; text-decoration: none; "><i class="fa-solid fa-envelope" style=" background-color: white "></i>  supritivats123@gmail.com</a> <br> -->
+            <a href="https://www.linkedin.com/in/supriti-vats-8065601b7/" class="card-link" style=" background-color: white; text-decoration: none; "><i class="fa-brands fa-linkedin" style=" background-color: white "></i>   LinkedIn</a>
+            <a href="https://github.com/SupritiVats/" class="card-link" style=" background-color: white; text-decoration: none; "><i class="fa-brands fa-github" style=" background-color: white "></i>   GitHub</a> 
+            <a href="https://www.instagram.com/_vats_supriti_/" class="card-link" style=" background-color: white; text-decoration: none;"> <i class="fa-brands fa-instagram" style=" background-color: white "></i>   Instagram</a> <br> <br>
+          </div>
+        </div>
+
+
+       </div>
+
+
+     </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div style="background-color: black; height: 60px;"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

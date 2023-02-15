@@ -88,3 +88,26 @@ h1, h3
     display: flex;
     justify-content:space-evenly;
 }
+.contactdiv
+{   
+    background-color: white;
+    margin-left: 183px;
+    /* padding: 10px; */
+}
+#contacts
+{
+    background-color: white;
+}
+
+.btn
+{    margin-top: 35px;
+    margin-left: 414px;
+}
+
+.cardofcontact
+{
+    background-color: rgb(41, 156, 233);
+    width: 23rem;
+    margin-top: -420px;
+}
+
