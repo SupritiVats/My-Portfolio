@@ -18,6 +18,11 @@
   <script src="myjs/jquery-1.8.2.min.js"></script>
 
   <script>
+
+   function myfuct()
+    {
+      alert("Sucessfully Sent!!");
+    }
     $(document).ready(function () {
 
       $('.carousel').carousel('cycle')({
@@ -337,7 +342,7 @@
         </div>
          
         <div class="row" id="contacts">
-          <label for="exampleFormControlInput1" class="form-label" id="contacts">Contact</label>  
+          <label for="exampleFormControlInput1" class="form-label" id="contacts">Choose Your Criteria</label>  
           
           <div class="form-check col-md-4" id="contacts">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"  >
@@ -367,7 +372,7 @@
         </div>
         
         <div class="col-md-8" id="contacts">
-          <button type="button" class="btn col-md-6 " style="background-color: rgb(41, 156, 233); ">Send Your Message!</button>
+          <button type="button" class="btn col-md-6 " style="background-color: rgb(41, 156, 233);"  onclick="myfuct()">Send Your Message!</button>
 
         </div>
       </div>
